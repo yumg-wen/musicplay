@@ -1,0 +1,110 @@
+/*------------------- banner begin-------------- */
+
+/* 設置橫幅寬高背景 */
+.banner {
+    width: 950px;
+    height: 250px;
+    background: url(img/06.jpg) no-repeat;
+    margin: 80px;
+    opacity: 0.9;
+    box-shadow: 10px 15px 15px 1px;
+    position: relative;
+}
+
+/* 設置banner li的樣式 */
+.banner ul li {
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+}
+/* 改變圖片 */
+.banner img {
+    border-radius: 50%;
+    cursor: pointer; /*滑鼠變手狀*/
+}
+/*設定圖片位置*/
+.m1 {
+    top: 30px;
+    left: 90px;
+}
+.m2 {
+    top: 140px;
+    left: 160px;
+}
+
+.m3 {
+    top: 67px;
+    left: 308px;
+}
+
+.m4 {
+    top: 50px;
+    left: 500px;
+}
+.m5 {
+    top: 160px;
+    left: 580px;
+}
+
+/*--------------------banner end *---------------/
+/*------------------- 播放器 begin--------------*/
+.music {
+    width: 550px;
+    height: 120px;
+    background: black;
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    opacity: 0.8;
+    box-shadow: 10px 15px 15px 1px;
+    display: flex;
+}
+/*調整圖片位置*/
+.music .m_img {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.music .m_text {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+/*固定a標籤的位置,為防止歌曲名稱長度不同，導致div樣式改變*/
+.music .m_btn {
+    position: absolute;
+    left: 320px;
+}
+
+/*改變a標籤*/
+
+.music .m_btn a {
+    float: left; /*若無浮動，顯示不出寬高*/
+    width: 35px;
+    height: 35px;
+    background: url(img/55779040-music-line-icons-on-black-background.jpg);
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+/*改變播放器圖片(上一首.播放.下一首)*/
+.music .m_btn .m_prev {
+    background-position: 270px 480px;
+}
+.music .m_btn .m_play {
+    background-position: 555px 1195px;
+}
+.music .m_btn .m_next {
+    background-position: 365px 480px;
+}
+.music .m_closed {
+    width: 23px;
+    height: 120px;
+    position: absolute;
+    right: 0;
+    background: url(img/123.png);
+    background-position: 226px 10px;
+}
+
+/*------------------- 播放器 end-------------- */
