@@ -1,3 +1,8 @@
+body {
+    background: url(img/background.jpg);
+    background-size: cover;
+}
+
 /*------------------- banner begin-------------- */
 
 /* 設置橫幅寬高背景 */
@@ -6,7 +11,7 @@
     height: 250px;
     background: url(img/06.jpg) no-repeat;
     margin: 80px;
-    opacity: 0.9;
+    opacity: 0.7;
     box-shadow: 10px 15px 15px 1px;
     position: relative;
 }
@@ -21,6 +26,7 @@
 .banner img {
     border-radius: 50%;
     cursor: pointer; /*滑鼠變手狀*/
+    box-shadow: 5px 5px 50px 2px white;
 }
 /*設定圖片位置*/
 .m1 {
